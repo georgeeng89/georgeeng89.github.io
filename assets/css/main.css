@@ -776,7 +776,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1140px) {
+		@media screen and (max-width: 5000px) {
 
 			.row {
 				display: flex;
@@ -2822,6 +2822,98 @@ input, select, textarea {
 			background: #fff;
 		}
 
+
+
+		.main.style0 {
+			background-color: #333;
+			color: rgba(255, 255, 255, 0.75);
+			background-attachment: fixed,							fixed;
+			/* background-image: linear-gradient(to bottom, rgba(0, 53, 105, 0.85), rgba(163, 0, 0, 0.85)), url("images/overlay1.png"), url("../../images/header.jpg"); */
+			background-size: auto,							cover;
+		}
+
+			.main.style0 a {
+				border-bottom-color: rgba(255, 255, 255, 0.5);
+			}
+
+				.main.style0 a:hover {
+					color: #ffffff;
+				}
+
+			.main.style0 h1, .main.style0 h2, .main.style0 h3, .main.style0 h4, .main.style0 h5, .main.style0 h6, .main.style0 strong, .main.style0 b {
+				color: #ffffff;
+			}
+
+			.main.style0 header p {
+				color: #ffffff;
+			}
+
+			.main.style0 header.major:after {
+				background: #ffffff;
+			}
+
+			.main.style0 input[type="submit"],
+			.main.style0 input[type="reset"],
+			.main.style0 input[type="button"],
+			.main.style0 button,
+			.main.style0 .button {
+				box-shadow: inset 0 0 0 1px #ffffff;
+				color: #ffffff !important;
+			}
+
+				.main.style0 input[type="submit"]:hover,
+				.main.style0 input[type="reset"]:hover,
+				.main.style0 input[type="button"]:hover,
+				.main.style0 button:hover,
+				.main.style0 .button:hover {
+					background-color: rgba(255, 255, 255, 0.125);
+				}
+
+				.main.style0 input[type="submit"]:active,
+				.main.style0 input[type="reset"]:active,
+				.main.style0 input[type="button"]:active,
+				.main.style0 button:active,
+				.main.style0 .button:active {
+					background-color: rgba(255, 255, 255, 0.25);
+				}
+
+				.main.style0 input[type="submit"].primary,
+				.main.style0 input[type="reset"].primary,
+				.main.style0 input[type="button"].primary,
+				.main.style0 button.primary,
+				.main.style0 .button.primary {
+					background-color: #ffffff;
+					box-shadow: inset 0 0 0 1px #ffffff !important;
+					color: #333 !important;
+				}
+
+					.main.style0 input[type="submit"].primary:hover,
+					.main.style0 input[type="reset"].primary:hover,
+					.main.style0 input[type="button"].primary:hover,
+					.main.style0 button.primary:hover,
+					.main.style0 .button.primary:hover {
+						background-color: rgba(255, 255, 255, 0.125) !important;
+						color: #ffffff !important;
+					}
+
+					.main.style0 input[type="submit"].primary:active,
+					.main.style0 input[type="reset"].primary:active,
+					.main.style0 input[type="button"].primary:active,
+					.main.style0 button.primary:active,
+					.main.style0 .button.primary:active {
+						background-color: rgba(255, 255, 255, 0.25) !important;
+					}
+
+			.main.style0 ul.major-icons li .icon {
+				border-color: #ffffff;
+			}
+
+			.main.style0 .icon.major {
+				color: #ffffff;
+			}
+
+
+
 		.main.style2 {
 			background-color: #333;
 			color: rgba(255, 255, 255, 0.75);
@@ -2920,7 +3012,7 @@ input, select, textarea {
 		background-image: url("https://w.wallhaven.cc/full/dp/wallhaven-dpo38l.jpg");
 		/* background-image: url("https://w.wallhaven.cc/full/dp/wallhaven-dpo38l.jpg"), url("https://w.wallhaven.cc/full/dp/wallhaven-dpo38l.jpg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2); */
 		background-position: top left,						center center,					center center;
-		background-size: 100em,							cover,							cover;
+		background-size: auto,							cover,							cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -3207,23 +3299,21 @@ input, select, textarea {
 		#footer .copyright {
 			font-size: 0.8em;
 			list-style: none;
-			margin: 2em 0 0 0;
-			padding: 0;
 		}
 
-			#footer .copyright li {
+			/* #footer .copyright li {
 				border-left: solid 1px;
 				display: inline-block;
 				line-height: 1em;
 				margin-left: 1em;
 				padding: 0 0 0 1em;
-			}
+			} */
 
-				#footer .copyright li:first-child {
+				/* #footer .copyright li:first-child {
 					border-left: 0;
 					margin-left: 0;
 					padding: 0;
-				}
+				} */
 
 /* XLarge */
 
@@ -3245,7 +3335,7 @@ input, select, textarea {
 
 /* Large */
 
-	@media screen and (max-width: 1140px) {
+	@media screen and (max-width: 5000px) {
 
 		/* Basic */
 
