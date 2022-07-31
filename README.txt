@@ -1,1 +1,1 @@
-Welcome to my portfolio! Enjoy.
+Welcome to my Portfolio. Enjoy!
